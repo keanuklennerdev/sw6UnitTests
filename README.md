@@ -23,7 +23,7 @@ Eine "Einheit" bezieht sich typischerweise auf die kleinste testbare Komponente 
 Im Falle eines Shopware 6 Shops sollten hier die Einheiten eines Plugins getestet werden. Beispielsweise die funktionalität eines Services.
 
 ### Was gibt es zu beachten?
-- Tests im Nachhinein zu schreiben ist in vielen Fällen kaum möglich.
+- Tests im Nachhinein zu schreiben ist in vielen Fällen schwierig.
 - Tests für einen dekorierten Shopware Service sind teilweise sehr komplex und dadurch sehr aufwendig, da oft Parameter mit "unsauberen" Typen verwendet werden, die alle gemockt werden müssen.
 - Es sollten Standards für die Pfade usw. für Tests in Shopware Plugins erstellt werden, da sich diese je nach plugin namespace struktur leicht ändern. Der Weg aus der Dokumentation funktioniert teilweise nicht oder ist sehr unübersichtlich.
 - Man benötigt das Flex Template um Tests ausführen zu können.
