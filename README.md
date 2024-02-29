@@ -16,9 +16,6 @@ Eine "Einheit" bezieht sich typischerweise auf die kleinste testbare Komponente 
 #### Dokumentation:
   - Unit-Tests dienen auch als Form der Dokumentation für den beabsichtigten Gebrauch von Code. Sie erklären, wie die Funktion aussieht, was die Wartung und Weiterentwicklung erleichtert.
 
-#### Regressionstests:
-  - Unit-Tests können als automatisierte Tests dienen, um sicherzustellen, dass früher behobene Fehler nicht erneut auftreten, wenn der Code geändert wird.
-
 #### Verbesserung der Codequalität:
   - Das Schreiben von Unit-Tests fördert eine gute Programmierpraxis und hilft dabei, sauberen, wartbaren und robusten Code zu schreiben.
 
@@ -35,7 +32,7 @@ Im Falle eines Shopware 6 Shops sollten hier die Einheiten eines Plugins geteste
 Best Practises werden sich wahrscheinlich erst richtig herausstellen, sobald man anfängt heufiger Tests zu schreiben.
 Man kann aber schon einiges aus der PHPUnit Dokumentation entnehmen, wie zum Beispiel das arbeiten mit DataProvidern.
 
-### Unit-Tests im Shopware 6 Umfeld:
+### Unit-Tests im Shopware 6 Umfeld
 
 ### Wie werden Unit-Tests in Shopware 6 ausgeführt:
 Flex Template hinzufügen
