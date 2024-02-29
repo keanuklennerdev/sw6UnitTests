@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/trunk/src/Core/System/SystemConfig/Schema/config.xsd">
+
+    <card>
+        <title>Configuration for Customer Groups</title>
+        <title lang="de-DE">Einstellungen für Kundengruppen</title>
+
+        <component name="sw-entity-multi-id-select">
+            <name>restrictedCustomerGroups</name>
+            <entity>customer_group</entity>
+            <label lang="en-GB">Disable Price for Customer Groups</label>
+            <label lang="de-DE">Preis ausblenden für Kundengruppen</label>
+
+            <helpText lang="en-GB">Select customer groups that should not be able to see a price in the store.</helpText>
+            <helpText lang="de-DE">Wahle Kundengruppen aus, die keinen preis im shop sehen können sollen.</helpText>
+        </component>
+    </card>
+</config>

@@ -1,0 +1,36 @@
+{
+  "name": "conne/customer-group-extensions",
+  "description": "This plugin is able to restrict the price visibility and to select the currency per customer group",
+  "type": "shopware-platform-plugin",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Connectiv! eSolutions GmbH"
+    }
+  ],
+  "require": {
+    "shopware/core": "6.5.*"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Conne\\CustomerGroupExtensions\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "Conne\\CustomerGroupExtensions\\ConneCustomerGroupExtensions",
+    "copyright": "Connectiv! eSolutions GmbH",
+    "label": {
+      "de-DE": "ConneCustomerGroupExtensions",
+      "en-GB": "ConneCustomerGroupExtensions"
+    },
+    "description": {
+      "de-DE": "Dieses Plugin kann die Sichtbartkeit der Preise und Währungen nach Kundengruppe konfigurieren",
+      "en-GB": "This plugin is able to restrict the price visibility and to select the currency per customer group"
+    },
+    "manufacturerLink": {
+      "de-DE": "https://connectiv.de",
+      "en-GB": "https://connectiv.de"
+    }
+  }
+}
