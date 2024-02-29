@@ -41,9 +41,13 @@ composer require --dev dev-tools
 ```
 Alle Tests im Plugin ausführen
 ```bash
-./vendor/bin/phpunit --configuration="custom/static-plugins/SwagBasicExample"
+./vendor/bin/phpunit --configuration="custom/static-plugins/ConneCustomerGroupExtensions"
 ```
 Bestimmten Test ausführen
 ```bash
-./vendor/bin/phpunit --configuration="custom/static-plugins/SwagBasicExample" --filter ClassNameOrMethod
+./vendor/bin/phpunit --configuration="custom/static-plugins/ConneCustomerGroupExtensions" --filter CurrencyFilterTest
+```
+Abteile ausführen
+```bash
+./vendor/bin/phpunit --configuration="custom/plugins/SwagBasicExample" --testsuite "Testsuite"
 ```
